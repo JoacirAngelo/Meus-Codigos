@@ -1,0 +1,7 @@
+print('PROGRMA PARA CALCULAR A MÉDIA DE CONSUMO')
+inicil= int(input('Qual a kilometragem inicial do seu veiculo? KM  '))
+final = int(input('E a final? KM  '))
+gastos = int(input('Quantos Litros de combustivel foi gasto na viagem?'))
+viagem = (final - inicil)
+consumo = (viagem / gastos)
+print('Seu veiculo consumiu em média' ,consumo, 'KM/L durante esse percurso.')
