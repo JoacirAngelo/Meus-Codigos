@@ -1,0 +1,3 @@
+p= int(input('Qual o valor do Combustivel? R$'))
+l= int(input('Quanto você deseja abastecer? R$'))
+print('Você consiguirá abastecer {} litros de gasolina.'.format(l/p))
