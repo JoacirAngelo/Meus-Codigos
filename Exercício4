@@ -1,6 +1,0 @@
-from  time import sleep
-divida= float(input('Qual valor da sua divida?  R$'))
-dias= float(input('Quantos dias que essa divida está em atrazo? '))
-print('Calculando valor da multa...')
-sleep(3)
-print ('O valor que você irá pagar de multa será de R${:.2f}.'.format(dias * 0.25))
